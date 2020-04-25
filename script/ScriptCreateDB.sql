@@ -1,4 +1,4 @@
-CREATE DATABASE `provident` /*!40100 COLLATE 'utf8_unicode_ci' */
+CREATE DATABASE `provident`; /*!40100 COLLATE 'utf8_unicode_ci' */
 
 CREATE TABLE provident.`employeelog` (
 	`EmployeeLogID` INT(20) NOT NULL AUTO_INCREMENT,

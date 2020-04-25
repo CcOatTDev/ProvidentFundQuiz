@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gridViewDisplay = new System.Windows.Forms.DataGridView();
             this.WorkYear = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Month = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -64,8 +64,7 @@
             // 
             this.gridViewDisplay.AllowUserToAddRows = false;
             this.gridViewDisplay.AllowUserToDeleteRows = false;
-            this.gridViewDisplay.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.gridViewDisplay.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.gridViewDisplay.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridViewDisplay.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -101,9 +100,9 @@
             // Salary
             // 
             this.Salary.DataPropertyName = "Salary";
-            dataGridViewCellStyle3.Format = "N2";
-            dataGridViewCellStyle3.NullValue = "0";
-            this.Salary.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Format = "N2";
+            dataGridViewCellStyle1.NullValue = "0";
+            this.Salary.DefaultCellStyle = dataGridViewCellStyle1;
             this.Salary.HeaderText = "Salary";
             this.Salary.Name = "Salary";
             // 
@@ -133,8 +132,8 @@
             // ProvidentFundCollect
             // 
             this.ProvidentFundCollect.DataPropertyName = "ProvidentFundCollect";
-            dataGridViewCellStyle4.Format = "N2";
-            this.ProvidentFundCollect.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Format = "N2";
+            this.ProvidentFundCollect.DefaultCellStyle = dataGridViewCellStyle2;
             this.ProvidentFundCollect.HeaderText = "ProvidentFundCollect";
             this.ProvidentFundCollect.Name = "ProvidentFundCollect";
             this.ProvidentFundCollect.ReadOnly = true;
